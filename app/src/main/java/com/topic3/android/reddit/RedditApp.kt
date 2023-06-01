@@ -107,7 +107,7 @@ fun TopAppBar(scaffoldState: ScaffoldState, coroutineScope: CoroutineScope) {
         actions = {
             if (RedditRouter.currentScreen.value == Screen.Home) {
                 IconButton(onClick = {
-                    context.startActivity(Intent(context, ChatActivity::class.java))
+                    context.startActivity(Intent(context, CharActivity::class.java))
                 }) {
                     Icon(
                         Icons.Filled.MailOutline,
