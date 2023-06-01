@@ -20,7 +20,7 @@ class ChatActivity : AppCompatActivity() {
             finish()
         }
 
-        binding.button.setOnClickListener {
+        binding.backButton.setOnClickListener {
             showToast()
         }
     }
